@@ -4,6 +4,17 @@
 
 This project is a simple log viewer application designed to display large log data (1GB) with a user-friendly interface. The application is built using the Express.js, React.js, Node.js stack. It provides real-time log streaming functionality and allows users to toggle automatic scrolling.
 
+### Requirements
+
+Task: display a large log data (1gb).
+
+Log data should be displayed at boot time.
+Automatic scrolling to the bottom of logs should be enabled by default, and there should be a small button, when clicked on which switches automatic scrolling.
+The application should consume no more than 512MB of memory.
+Note that new data can be appended to log any time, and log data should be transferred to frontend from backend, you can choose any protocol for data transfer.
+
+Here is example log data: https://drive.google.com/file/d/1Gf-YMrKVXpDbKvcIe0gxweC33jUpaUR0/view?usp=sharing
+
 ### Features
 
 - Display large log data at boot time.
